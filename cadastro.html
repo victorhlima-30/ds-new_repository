@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro do cadastro</title>
+</head>
+<body>
+    <main>
+        <div class="box">
+            <h1>Cadastre-se para se cadastrar</h1>
+        </div>
+
+        <div class="forme">
+            <form id="formCadastro">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Nome" maxlength="80" required autocomplete="name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Email" maxlength="40" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" placeholder="Senha" maxlength="20" required>
+
+                <label for="confirmar-senha">Confirmar Senha:</label>
+                <input type="password" id="confirmar-senha" placeholder="Confirmar Senha" maxlength="20" required>
+
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" placeholder="Idade" required min="0" max="100">
+
+                <button type="submit">Ir para o cadastro</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>Termos de Uso, Política de Privacidade e Mapa do Site</p>
+    </footer>
+    <script src="cadastro.js"></script>
+</body>
+</html>
